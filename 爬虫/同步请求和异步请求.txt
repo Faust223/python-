@@ -1,0 +1,12 @@
+异步请求：后缀：.shtml
+ajax: 异步请求
+
+xhr-->刷新-->herolist
+
+json在线解析
+
+
+
+
+
+
