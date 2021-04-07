@@ -1,0 +1,34 @@
+import wordcloud
+import jieba
+import numpy as np
+
+# 1.1 词云图：关键字视觉化展示与呈现
+# 1.2 安装wordcloud: pip install wordcloud
+# 1.3 安装jieba：pip install jieba
+# 1.4 安装numpy: pip install numpy
+
+# numpy使用
+print(type([1, 2, 3, 4, 5]))
+print(type(np.array([1, 2, 3])))
+print(np.array([1, 2, 3]))          # 实验numpy扩展库安装成功
+
+print(np.zeros((3,3)))
+
+# 1.5 分词
+msg="今天，天气很好，我们都在武汉城市学院上课。"
+# 1.分词
+result = jieba.cut(msg)
+# 字符串连接
+print(" ".join(result))
+
+# 1.6读取豆瓣影评
+
+
+
+
+
+
+
+
+
+
